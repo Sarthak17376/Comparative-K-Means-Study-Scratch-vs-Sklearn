@@ -62,16 +62,3 @@ The custom implementation was validated against the ground truth labels and comp
 
 
 *Figure 1: 2D PCA projection of the Custom K-Means Clustering results.*
-
-## 🚀 How to Run
-
-1.  **Run Instantly in Browser:**
-    Click the "Open in Colab" badge at the top of this file, or [click here](https://colab.research.google.com/drive/1Liy6I9U71rbedHfUuMzMSALOES7kS7OS?usp=sharing).
-
-2.  **Local Installation:**
-    ```bash
-    git clone [https://github.com/yourusername/seeds-clustering-analysis.git](https://github.com/yourusername/seeds-clustering-analysis.git)
-    cd seeds-clustering-analysis
-    pip install numpy pandas matplotlib seaborn scikit-learn
-    jupyter notebook
-    ```
