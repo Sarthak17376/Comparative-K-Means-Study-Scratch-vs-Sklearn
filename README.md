@@ -1,5 +1,6 @@
 # Comparative Analysis of K-Means Clustering: From Scratch vs. Scikit-Learn
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Liy6I9U71rbedHfUuMzMSALOES7kS7OS?usp=sharing)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Libraries](https://img.shields.io/badge/Libraries-NumPy%20%7C%20Pandas%20%7C%20Scikit--Learn-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
@@ -31,7 +32,7 @@ The project utilizes the **[UCI Seeds Dataset](https://archive.ics.uci.edu/datas
 ### 2. Custom Implementation (`KMeansScratch`)
 A Python class developed to mimic the behavior of standard clustering libraries:
 * **Initialization:** Implemented logic to select initial centroids.
-* **Assignment Step:** vectorized Euclidean distance calculation to assign points to the nearest cluster.
+* **Assignment Step:** Vectorized Euclidean distance calculation to assign points to the nearest cluster.
 * **Update Step:** Recalculated centroids based on the mean of assigned points.
 * **Convergence Check:** Iterative process stops when centroids stabilize or max iterations are reached.
 
@@ -60,18 +61,19 @@ Since clustering is unsupervised, but ground truth was available for validation,
 
 ## 🚀 How to Run
 
-1.  **Clone the repository**
+1.  **Run Instantly in Browser:**
+    Click the "Open in Colab" badge at the top of this file, or [click here](https://colab.research.google.com/drive/1Liy6I9U71rbedHfUuMzMSALOES7kS7OS?usp=sharing).
+
+2.  **Local Installation:**
     ```bash
     git clone [https://github.com/yourusername/seeds-clustering-analysis.git](https://github.com/yourusername/seeds-clustering-analysis.git)
-    ```
-2.  **Install dependencies**
-    ```bash
+    cd seeds-clustering-analysis
     pip install numpy pandas matplotlib seaborn scikit-learn
-    ```
-3.  **Run the Notebook**
-    ```bash
-    jupyter notebook 25AI60R20_Assignment10.ipynb
+    jupyter notebook
     ```
 
 ## 🤝 Contributing
 Feel free to fork this repository and submit pull requests. Suggestions for optimizing the NumPy vectorization in the custom class are welcome!
+
+## 📜 License
+This project is open-source and available under the [MIT License](LICENSE).
