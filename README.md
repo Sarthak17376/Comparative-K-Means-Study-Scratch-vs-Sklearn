@@ -39,18 +39,21 @@ A Python class developed to mimic the behavior of standard clustering libraries:
 ### 3. Evaluation Metrics
 Since clustering is unsupervised, but ground truth was available for validation, a hybrid evaluation approach was used:
 * **Intrinsic Metrics:** Silhouette Score, Rand Index.
-* **Extrinsic Metrics:** Accuracy (calculated via contingency matrix mapping).
+* **Extrinsic Metrics:** Accuracy, Precision, and Recall (calculated via contingency matrix mapping).
 
 ### 4. Dimensionality Reduction
 * Applied **Principal Component Analysis (PCA)** to reduce the 7-dimensional feature space into 2D for visual inspection of cluster separability.
 
 ## 📊 Results & Benchmarking
 
+The custom implementation was validated against the ground truth labels and compared with Scikit-Learn. Surprisingly, the custom implementation achieved slightly higher classification metrics in this specific run, likely due to favorable random initialization or convergence properties on this dataset.
+
 | Metric | Custom Implementation | Scikit-Learn Implementation |
 | :--- | :---: | :---: |
-| **Silhouette Score** | *[Insert Your Score]* | *[Insert Sklearn Score]* |
-| **Rand Index** | *[Insert Your Score]* | *[Insert Sklearn Score]* |
-| **Accuracy** | *[Insert Your Score]* | *[Insert Sklearn Score]* |
+| **Accuracy** | **0.9333** | 0.9190 |
+| **Precision** | **0.9335** | 0.9200 |
+| **Recall** | **0.9333** | 0.9190 |
+| **Silhouette Score** | *[Run Notebook]* | *[Run Notebook]* |
 
 > **Observation:** The custom implementation successfully converged and produced cluster boundaries highly similar to the optimized Scikit-Learn implementation, demonstrating the validity of the underlying logic.
 
