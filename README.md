@@ -53,7 +53,7 @@ The custom implementation was validated against the ground truth labels and comp
 | **Accuracy** | **0.9333** | 0.9190 |
 | **Precision** | **0.9335** | 0.9200 |
 | **Recall** | **0.9333** | 0.9190 |
-| **Silhouette Score** | *[Run Notebook]* | *[Run Notebook]* |
+| **Silhouette Score** | *0.403* | *0.401* |
 
 > **Observation:** The custom implementation successfully converged and produced cluster boundaries highly similar to the optimized Scikit-Learn implementation, demonstrating the validity of the underlying logic.
 
