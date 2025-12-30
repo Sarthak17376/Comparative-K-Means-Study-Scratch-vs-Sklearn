@@ -71,9 +71,3 @@ Since clustering is unsupervised, but ground truth was available for validation,
     pip install numpy pandas matplotlib seaborn scikit-learn
     jupyter notebook
     ```
-
-## 🤝 Contributing
-Feel free to fork this repository and submit pull requests. Suggestions for optimizing the NumPy vectorization in the custom class are welcome!
-
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
