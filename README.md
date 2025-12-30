@@ -58,7 +58,8 @@ The custom implementation was validated against the ground truth labels and comp
 > **Observation:** The custom implementation successfully converged and produced cluster boundaries highly similar to the optimized Scikit-Learn implementation, demonstrating the validity of the underlying logic.
 
 ## 📈 Visualizations
-*(Add your PCA plot screenshots here)*
+<img width="1589" height="670" alt="image" src="https://github.com/user-attachments/assets/5adea67b-8474-46af-9e44-0394ce778331" />
+
 
 *Figure 1: 2D PCA projection of the Custom K-Means Clustering results.*
 
